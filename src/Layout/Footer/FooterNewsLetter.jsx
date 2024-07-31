@@ -8,7 +8,7 @@ const FooterNewsLetter = () => {
     <FooterNewsLetterStyled>
       <h4>Our Newsletter</h4>
       <p>
-        Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+      Subscribe to Our Cool Fashion Newsletter for Exclusive Style Insights and VIP Access!
       </p>
       <div className="subscribe-form">
         <Form.Control type="text" />

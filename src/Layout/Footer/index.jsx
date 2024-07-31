@@ -32,25 +32,22 @@ const Footer = () => {
             <span style={{fontSize: "15px"}}>
               Made by
               <a
-                href="https://github.com/omar1Mayallo"
+                href="https://github.com/abbamelka"
                 style={{color: "var(--ds-blood)", textDecoration: "underline"}}
                 target="_blank"
                 rel="noreferrer"
               >
-                &nbsp;OTM
+                &nbsp;AM-Tech
               </a>
             </span>
+              
+           
+
+            
             <span>
-              Template which I inspired from
-              <a
-                href="https://bootstrapmade.com/demo/templates/Day"
-                style={{color: "var(--ds-blood)", textDecoration: "underline"}}
-                target="_blank"
-                rel="noreferrer"
-              >
-                &nbsp;here
-              </a>
+            <p>&copy; { new Date().getFullYear()} Cool Fashion. All rights reserved.</p>
             </span>
+            
           </div>
         </Container>
       </FooterStyled>

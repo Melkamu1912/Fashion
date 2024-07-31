@@ -9,7 +9,7 @@ const Pricing = () => {
       <SectionHead
         head={"pricing"}
         text={
-          "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias"
+          "Quality meets affordability in every piece we offer"
         }
       />
       <PricingBlock />

@@ -10,7 +10,7 @@ const Contact = () => {
       <SectionHead
         head={"contact"}
         text={
-          "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias"
+          "Reach out to the Cool Fashion team for style advice, inquiries, or collaborations. We’re here to elevate your fashion journey"
         }
       />
       <ContactInfoBlock />

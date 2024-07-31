@@ -6,7 +6,7 @@ import AboutSponsor from "./AboutSponsor";
 import {AiOutlineCheckCircle} from "react-icons/ai";
 import {RowReversedStyled} from "./About.styled";
 import {paragraphs} from "./aboutData";
-import aboutImage from "../../assets/about.jpg";
+import aboutImage from "../../assets/about1.jpg";
 
 const About = () => {
   return (
@@ -15,12 +15,13 @@ const About = () => {
         <RowReversedStyled className="my-2">
           <Col lg={6} className="mb-3">
             <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
+            Welcome to Cool Fashion, where style meets innovation. 
             </h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            At Cool Fashion, we believe that fashion is not just about clothing;
+             it’s a form of self-expression and confidence. Our mission is to empower
+              individuals to discover their unique style
+             through our carefully curated collections and personalized fashion experiences.
             </p>
             <ul>
               {paragraphs.map((par, idx) => (
@@ -34,13 +35,7 @@ const About = () => {
                 </li>
               ))}
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum
-            </p>
+            
           </Col>
           <Col lg={6} className="mb-3">
             <Image

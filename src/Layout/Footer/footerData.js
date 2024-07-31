@@ -6,11 +6,14 @@ export const footerLinks = {
   servicesLinks: {
     head: "Our Services",
     links: [
-      "Web Design",
-      "Web Development",
-      "Product Management",
-      "Marketing",
-      "Graphic Design",
+      "Design and Development",
+      "Consultation and Styling",
+      "Custom Clothing",
+      "Fashion Show Management",
+      "Event Management",
+      "Custom Clothing",
+      "Marketing and Branding",
+      "Education and Training",
     ],
   },
 };

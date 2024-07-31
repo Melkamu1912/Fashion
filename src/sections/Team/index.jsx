@@ -9,7 +9,7 @@ const Team = () => {
       <SectionHead
         head={"team"}
         text={
-          "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias"
+          "Meet Our Creative Collective: Passionate Visionaries Crafting the Future of Fashion."
         }
       />
       <TeamBlock />

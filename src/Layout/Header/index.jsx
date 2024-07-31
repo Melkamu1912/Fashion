@@ -4,6 +4,7 @@ import {HiOutlineMenu} from "react-icons/hi";
 import {MdClose} from "react-icons/md";
 import {HeaderStyled} from "./header.styled";
 import {Link} from "react-scroll";
+import Logo from "../../assets/logo1.jpg"
 const navlinks = [
   "Home",
   "About",
@@ -47,7 +48,17 @@ const Header = () => {
       <Navbar>
         <Container>
           <Link to="home" smooth>
-            <Navbar.Brand>AM</Navbar.Brand>
+            <Navbar.Brand>
+              <img
+                 src={Logo}
+                 alt="Logo"
+                 style={{
+                   width: '50px', 
+                   height: 'auto',
+                   borderRadius: '50%',
+                 }}
+              />
+              Cool Fashion</Navbar.Brand>
           </Link>
           <Nav className={`ms-auto${isOpen ? " nav-links-container" : ""}`}>
             <MdClose

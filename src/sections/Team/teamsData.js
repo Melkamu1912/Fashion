@@ -1,23 +1,28 @@
 import teamImg1 from "../../assets/team-1.jpg";
 import teamImg2 from "../../assets/team-2.jpg";
-import teamImg3 from "../../assets/team-3.jpg";
+import teamImg3 from "../../assets/team-3.png";
 export const teams = [
   {
-    name: "Walter White",
+    name: "Melkamu Dagne",
     img: teamImg1,
     subTitle: "Chief Executive Officer",
-    text: "Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui",
+    text: `Meet our visionary leader, Melkamu Dagne , driving Cool
+        Fashion to new heights with innovation, style,
+       and a passion for empowering personal expression through fashion`,
   },
   {
-    name: "Sarah Jhinson",
+    name: "Samrawit Addisu",
     img: teamImg2,
-    subTitle: "Product Manager",
-    text: "Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus",
+    subTitle: "Designer",
+    text: `creative force behind our latest collections. With an eye for detail and a passion for 
+    cutting-edge design, Samrawit Addisu,  brings innovation and elegance to every piece`,
   },
   {
-    name: "William Anderson",
+    name: "Aimro Ashenafi",
     img: teamImg3,
     subTitle: "CTO",
-    text: "Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara",
+    text:`strategic technical leadership 
+    and hands-on approach have been instrumental
+     in our company's growth and success`,
   },
 ];

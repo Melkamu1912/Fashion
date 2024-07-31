@@ -3,14 +3,19 @@ import CustomButton from "../CustomButton";
 import {PricingCardStyled} from "./pricingCard.styled";
 
 const PricingCard = ({bloodState, planType, buttonType, price, list}) => {
+  /*
+    `
+      <h4>
+      <sup>$</sup>
+      <span>{price}</span>
+      <sub>/ month</sub>
+    </h4>
+    ` */
+    
   return (
     <PricingCardStyled bloodState={bloodState} planType={planType}>
       <h3>{planType}</h3>
-      <h4>
-        <sup>$</sup>
-        <span>{price}</span>
-        <sub>/ month</sub>
-      </h4>
+       
       <ul>
         {list.map((item, idx) => (
           <li key={idx}>{item}</li>
@@ -21,6 +26,8 @@ const PricingCard = ({bloodState, planType, buttonType, price, list}) => {
       </CustomButton>
     </PricingCardStyled>
   );
+ 
 };
 
 export default PricingCard;
+

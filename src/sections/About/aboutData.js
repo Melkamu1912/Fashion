@@ -5,24 +5,24 @@ import sponser4 from "../../assets/client-4.png";
 import sponser5 from "../../assets/client-5.png";
 import sponser6 from "../../assets/client-6.png";
 export const paragraphs = [
-  "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  "Duis aute irure dolor in reprehenderit in voluptate velit.",
-  "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+  " Trendsetting Collections",
+  "Customized Fashion Solutions",
+  "Quality and Sustainability",
 ];
 export const cards = [
   {
-    title: "Lorem Ipsum",
-    text: "Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat",
+    title: "Trendsetting Collections",
+    text: " Explore our latest collections that blend contemporary trends with timeless elegance.  ",
     number: "01",
   },
   {
-    title: "Repellat Nihil",
-    text: "Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest",
+    title: "Customized Fashion Solutions",
+    text: "Whether you’re looking for a statement piece or a wardrobe refresh, our personalized styling services cater to your unique preferences.",
     number: "02",
   },
   {
-    title: "Ad ad velit qui",
-    text: "Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis",
+    title: "Quality and Sustainability",
+    text: "We are committed to using sustainable practices and materials, ensuring that our fashion not only looks good but also feels good.",
     number: "03",
   },
 ];
